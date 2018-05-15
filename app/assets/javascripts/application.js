@@ -1,4 +1,4 @@
-// This is a manifest file that'll be compiled into application.js, which will include all the files
+// This is a manifest file that'll be compiled into application, which will include all the files
 // listed below.
 //
 // Any JavaScript/Coffee file within this directory, lib/assets/javascripts, or any plugin's
@@ -15,4 +15,32 @@
 //= require rails-ujs
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require adaptive-backgrounds
+//= require jquery.countdown.min
+//= require dropzone.min
+//= require jquery.easypiechart.min
+//= require jquery.fancybox.min
+//= require flatpickr.min
+//= require flip.min
+//= require footer-reveal.min
+//= require jquery.gradientify.min
+//= require headroom.min
+//= require jquery.headroom.min
+//= require input-mask.min
+//= require instafeed
+//= require jquery.countTo
+//= require nouislider.min
+//= require paraxify.min
+//= require select2.min
+//= require sticky-kit.min
+//= require swiper.min
+//= require autosize.min
+//= require typeahead.bundle.min
+//= require typed.min
+//= require vide.min
+//= require viewportchecker.min
+//= require wow.min
+//= require isotope.min
+//= require imagesloaded.pkgd.min
+//= require boomerang.min
 //= require_tree .
