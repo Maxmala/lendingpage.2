@@ -11,13 +11,18 @@
 // about supported directives.
 //
 //= require jquery3
-//= require slidebar
-//= require popper.min
 //= require rails-ujs
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require jquery.min
+//= require popper.min
+//= require bootstrap.min
+//= require slidebar
+//= require classie
+//= require bootstrap-growl.min
+//= require scrollpos-styler
 //= require adaptive-backgrounds
-//= require jquery.countdown.min             
+//= require jquery.countdown.min
 //= require dropzone.min
 //= require jquery.easypiechart.min
 //= require jquery.fancybox.min
@@ -44,9 +49,4 @@
 //= require isotope.min
 //= require imagesloaded.pkgd.min
 //= require boomerang.min
-//= require bootstrap-growl.min
-//= require bootstrap.min
-//= require popper.min
-//= require classie
-//= require jquery.min
 //= require_tree .
