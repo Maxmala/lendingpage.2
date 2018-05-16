@@ -17,7 +17,7 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require adaptive-backgrounds
-//= require jquery.countdown.min
+//= require jquery.countdown.min             
 //= require dropzone.min
 //= require jquery.easypiechart.min
 //= require jquery.fancybox.min
@@ -45,6 +45,9 @@
 //= require imagesloaded.pkgd.min
 //= require boomerang.min
 //= require bootstrap-growl.min
+//= require popper.min
 //= require classie
 //= require jquery.min
 //= require_tree .
+
+
