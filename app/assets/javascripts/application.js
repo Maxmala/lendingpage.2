@@ -12,7 +12,7 @@
 //
 //= require jquery3
 //= require slidebar
-//= require popper
+//= require popper.min
 //= require rails-ujs
 //= require turbolinks
 //= require bootstrap-sprockets
@@ -44,4 +44,7 @@
 //= require isotope.min
 //= require imagesloaded.pkgd.min
 //= require boomerang.min
+//= require bootstrap-growl.min
+//= require classie
+//= require jquery.min
 //= require_tree .
