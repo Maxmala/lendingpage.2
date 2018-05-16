@@ -45,9 +45,8 @@
 //= require imagesloaded.pkgd.min
 //= require boomerang.min
 //= require bootstrap-growl.min
+//= require bootstrap.min
 //= require popper.min
 //= require classie
 //= require jquery.min
 //= require_tree .
-
-
