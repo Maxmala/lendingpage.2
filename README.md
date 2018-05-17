@@ -42,7 +42,7 @@ Notre cahier des charges :
 
 
 1) Donner de la forme à nos pages en intégrant un template WrapBootstrap
-2) Faire plusieurs landing pages
+2) Faire plusieurs landing pages (une pour les Anglophones, une pour les Marseillais et une pour les étudiants)
 3) Avoir un service de mailer, avec une newsletter de la bombe
 4) Faire tourner nos opérations marketing grâce au Heroku Scheduler, pour avoir un afflux constant de personnes qui vont sur notre site
 
@@ -96,10 +96,10 @@ Aller sur les liens Heroku suivants
 
 ------------- choix du design  -------------
 
-2 personnes ont disséqué  les ressources proposés pour retenir certains points clés : 
+2 personnes ont disséqué les ressources proposées pour retenir certains points clés : 
         ◦ Des éléments visuels attirants
-        ◦ Ne pas trop charger la lending page
-        ◦ Pas de Nav Bar (ainsi favoriser le call to action) 
+        ◦ Ne pas trop charger la landing page
+        ◦ Pas de Nav Bar (pour favoriser le call to action) 
         ◦ Attirer le clic et favoriser les contacts 
 
 ------------- comment le code a été fait : -------------
@@ -120,7 +120,7 @@ Aller sur les liens Heroku suivants
         c. $ git commit -m "heroku"
         d. $ git push heroku master
         e. Succés avec site en ligne appelé https://marseillewestcoast.herokuapp.com
-    4. Créer un compte Mailchimp 
+    4. Créer un compte Mailchimp pour les mails et la newsletter
         a. Créer un fichier .env avec les clées API de Mailchimp
         b. Dans le gitiniore rajouter le .env
         c. Sur mailchimp.com paramétrer avec le site heroku  
@@ -136,9 +136,13 @@ Aller sur les liens Heroku suivants
         b. $ verif avec rails routes => ok
         c. Verif avec heroku push (refaire étape 2def et 3bcd) => ok
     7. Ajout de Boostrap
-        a. Insertion des liens boostrap dans application html  
-    8. Mise en place d'un bot Instagram
-    9. Mise en place d'un tracking avec Mixpanel
+        a. Insertion de Wrapboostrap dans notre application html  
+    8. Mise en place d'un tracking avec Mixpanel pour chaque landing page
+
+    9. Mise en place d'un bot Instagram
+	Génère des Likes, des commentaires et des followers
+       
+    10. Mise en place d'un Scheduler pour lancer les bots avec Heroku
 
 
 
