@@ -3,8 +3,12 @@ LENDINGPAGE.2
 
 ================
 
+<<<<<<< HEAD
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)]
 => https://marseillewestcoast.herokuapp.com
+=======
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://marseillewestcoast.herokuapp.com/)
+>>>>>>> master
 
 
 
@@ -77,6 +81,7 @@ et Tester la Version en Localhost en allant dans ton navigateur sur :
 
 
 
+<<<<<<< HEAD
 
 
 ## Test en ligne:
@@ -89,6 +94,8 @@ Aller sur les liens Heroku suivants
 
 
 
+=======
+>>>>>>> master
 ------------
 
 
