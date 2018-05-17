@@ -25,7 +25,6 @@
 //= require jquery.fancybox.min
 //= require flatpickr.min
 //= require flip.min
-//= require footer-reveal.min
 //= require jquery.gradientify.min
 //= require headroom.min
 //= require jquery.headroom.min
@@ -46,6 +45,7 @@
 //= require isotope.min
 //= require imagesloaded.pkgd.min
 //= require boomerang.min
+//= require footer-reveal.min
 //= require jquery3
 //= require rails-ujs
 //= require turbolinks
