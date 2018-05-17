@@ -36,13 +36,13 @@ LENDINGPAGE.2
 
 # But de l´exercice
 
-Pour ce Jeudi 17 Mai 2018 dans le cadre de l'approfondissement de Ruby on Rails, nous devions créer une une landing page pour the hacking project.
+Pour ce Jeudi 17 Mai 2018 dans le cadre de l'approfondissement du langage HTML/CSS, nous devions créer plusieurs landing pages pour the hacking project.
 
 Notre cahier des charges :
 
 
 1) Donner de la forme à nos pages en intégrant un template WrapBootstrap
-2) Faire d'autres landing pages, pour monter à 3
+2) Faire plusieurs landing pages
 3) Avoir un service de mailer, avec une newsletter de la bombe
 4) Faire tourner nos opérations marketing grâce au Heroku Scheduler, pour avoir un afflux constant de personnes qui vont sur notre site
 
@@ -71,7 +71,7 @@ La vous pouver vous balader sur notre code.
 
 Puis ouvrir le fichier sqlite dans le dossier db de l'app, soit avec dbBrowser soit avec SqliteStudio ou autre et visionner.
 
-et Tester la Version en Local host en allant dans ton navigateur sur :
+et Tester la Version en Localhost en allant dans ton navigateur sur :
 
 > localhost:3000
 
@@ -108,11 +108,11 @@ Aller sur les liens Heroku suivants
         a. $ rails new lendingpage.2
         b. Modif du gemfile (pour integration heroku ) 
     2. Nouveau Repo sur Github
-        a. cd dossier landing_page
+        a. cd dossier lendingpage.2
         b. $ git init 
         c. $ git remote
         d. $ git Add . 
-        e. $ git commit -m "firstcommit"
+        e. $ git commit -m "first commit"
         f. $ git push 
     3. Heroku compatible
         a. $ heroku create
@@ -124,24 +124,21 @@ Aller sur les liens Heroku suivants
         a. Créer un fichier .env avec les clées API de Mailchimp
         b. Dans le gitiniore rajouter le .env
         c. Sur mailchimp.com paramétrer avec le site heroku  
-    5. Paramètre la base de donner des utilisateurs 
+    5. Paramètrer la base de donner des utilisateurs 
         a. $ rails generate scaffold user email:string
         b. $ rails db:migrate
         c. Verif heroku comparabilité avec un nouveau push heroku => ok
         d. $ heroku run rails db:migrate => ok
         e. Affichage des routes users : $ rails routes 
         f. Vérification en ligne :   https://marseillewestcoast.herokuapp.com
-    6. Configuration des pages en lignes en définissant seulement 2 routes 
+    6. Configuration des pages en ligne en définissant seulement les routes 
         a. Dans config routes.rb :   
-            ▪ Rails.application.routes.draw do
-            ▪ root "user#new"
-            ▪ ressources :users , only : [:new, :create]
-            ▪ end
         b. $ verif avec rails routes => ok
         c. Verif avec heroku push (refaire étape 2def et 3bcd) => ok
     7. Ajout de Boostrap
         a. Insertion des liens boostrap dans application html  
-
+    8. Mise en place d'un bot Instagram
+    9. Mise en place d'un tracking avec Mixpanel
 
 
 
