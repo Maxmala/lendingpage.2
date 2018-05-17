@@ -3,7 +3,7 @@ LENDINGPAGE.2
 
 ================
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://afternoon-shelf-91725.herokuapp.com/)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://marseillewestcoast.herokuapp.com/)
 
 
 
@@ -81,18 +81,6 @@ Puis ouvrir le fichier sqlite dans le dossier db de l'app, soit avec dbBrowser s
 et Tester la Version en Local host en allant dans ton navigateur sur :
 
 > localhost:3000
-
-
-
-
-
-## Test en ligne:
-
-Aller sur les liens Heroku suivants
-
-
-> https://git.heroku.com/ancient-mesa-99966.git
-
 
 
 
