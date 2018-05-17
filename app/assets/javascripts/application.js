@@ -11,4 +11,5 @@
 // about supported directives.
 //
 //= require jquery.min
+//= require swiper.min
 //= require_tree .
