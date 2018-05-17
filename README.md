@@ -105,19 +105,19 @@ Aller sur les liens Heroku suivants
 ------------- comment le code a été fait : -------------
 
     1. Nouveau projet Rails : landing page
-        a. $ rails new landing_pages
+        a. $ rails new lendingpage.2
         b. Modif du gemfile (pour integration heroku ) 
     2. Nouveau Repo sur Github
         a. cd dossier landing_page
         b. $ git init 
         c. $ git remote
         d. $ git Add . 
-        e. $ git commit -m’’firstcommit’’
+        e. $ git commit -m "firstcommit"
         f. $ git push 
     3. Heroku compatible
         a. $ heroku create
         b. $ git add .
-        c. $ git commit -m’’heroku’’
+        c. $ git commit -m "heroku"
         d. $ git push heroku master
         e. Succés avec site en ligne appelé https://marseillewestcoast.herokuapp.com
     4. Créer un compte Mailchimp 
